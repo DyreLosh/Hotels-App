@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeNavigation"
+        android:title="@string/home_navigation"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/orderNavigation"
+        android:title="@string/order_navigation"
+        android:icon="@drawable/ic_order"/>
+    <item
+        android:id="@+id/likedNavigation"
+        android:title="@string/liked_navigation"
+        android:icon="@drawable/ic_heart"/>
+    <item
+        android:id="@+id/messageNavigation"
+        android:title="@string/message_navigation"
+        android:icon="@drawable/ic_message"/>
+    <item
+        android:id="@+id/profileNavigation"
+        android:title="@string/profile_navigation"
+        android:icon="@drawable/ic_person"/>
+
+</menu>

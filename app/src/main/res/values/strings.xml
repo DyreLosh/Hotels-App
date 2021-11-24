@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hotels App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_button">Заказать сейчас</string>
+    <string name="home_navigation">Home</string>
+    <string name="order_navigation">Order</string>
+    <string name="liked_navigation">Liked</string>
+    <string name="message_navigation">Message</string>
+    <string name="profile_navigation">Profile</string>
+</resources>
