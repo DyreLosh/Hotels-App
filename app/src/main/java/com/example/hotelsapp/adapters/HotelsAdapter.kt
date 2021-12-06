@@ -18,4 +18,10 @@ class HotelsAdapter : RecyclerView.Adapter<HotelsViewAdapter>() {
     }
 
     override fun getItemCount() = items.size
+
+    fun submitList(hotel: List<Hotel>) {
+        items.clear()
+        items.addAll(hotel)
+        notifyDataSetChanged()
+    }
 }

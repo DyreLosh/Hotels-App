@@ -7,7 +7,7 @@ import com.example.hotelsapp.databinding.ItemHotelsBinding
 class HotelsViewAdapter(private val binding: ItemHotelsBinding) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(hotel: Hotel) = with(binding) {
-      //  imageHotel = hotel.imageView
+        imageHotel.setImageResource(hotel.imageView)
         nameCityText.text = hotel.nameCity
         availableHotelsText.text = hotel.availableHotel
         ratingHotels.text = hotel.ratingHotel
