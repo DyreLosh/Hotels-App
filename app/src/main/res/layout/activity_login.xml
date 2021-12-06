@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
-        android:text="Email"
+        android:text="Электронная почта"
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"/>
 
@@ -56,7 +56,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text="Пароль"
         android:layout_marginTop="25dp"
         android:layout_marginStart="25dp"/>
 
@@ -65,7 +65,7 @@
         android:layout_marginStart="@dimen/margin_start_button"
         android:layout_marginEnd="@dimen/margin_start_button"
         android:layout_height="wrap_content"
-        android:hint="6+ character"
+        android:hint="6+ символов"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:boxCornerRadiusTopStart="@dimen/corner_edit_text"
         app:boxCornerRadiusTopEnd="@dimen/corner_edit_text"

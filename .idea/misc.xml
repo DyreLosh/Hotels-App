@@ -6,7 +6,14 @@
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_home.xml" value="0.27890625" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_login.xml" value="0.27890625" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_register.xml" value="0.27890625" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/fragment_liked.xml" value="0.27890625" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/fragment_message.xml" value="0.27890625" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/fragment_order.xml" value="0.27890625" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/fragment_profile.xml" value="0.27890625" />
+        <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/item_hotels.xml" value="0.5" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/menu/bottom_navigation.xml" value="0.27890625" />
       </map>
     </option>

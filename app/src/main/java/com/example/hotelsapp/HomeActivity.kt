@@ -2,6 +2,7 @@ package com.example.hotelsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.view.isVisible
 import com.example.hotelsapp.databinding.ActivityHomeBinding
 import com.example.hotelsapp.fragments.HomeFragment
 import com.example.hotelsapp.fragments.LikedFragment
@@ -23,6 +24,7 @@ class HomeActivity : AppCompatActivity() {
                         .beginTransaction()
                         .replace(R.id.fragmentContainerView, HomeFragment())
                         .commit()
+                    binding.toolbar.isVisible = false
                 }
                 R.id.orderNavigation -> {
                     supportFragmentManager
