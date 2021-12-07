@@ -38,6 +38,21 @@
     <string name="have_acc_register_text">Уже есть учетная запись?</string>
     <string name="hello_text_splash">Добро пожаловать!</string>
     <string name="tree_image_content_description">Tree Image</string>
+    <string name="main_image_content_description">Main image</string>
+    <string name="bron_text_home_fragment">Забронируйте комнату</string>
+    <string name="selected_date_home">Выбрать дату</string>
+    <string name="search_hotel_hint">Где бы ты хотел остановиться?</string>
+    <string name="night_number_select">1 ночь</string>
+    <string name="verify_text_button">Проверить наличие</string>
+    <string name="register_time_text">Начало регистрации в 14:00.</string>
+    <string name="available_hotels_text_main">Доступные отели</string>
+    <string name="variant_pay_text_gome">Варианты оплаты</string>
+    <string name="hotel_image_one_content_description">Hotel image one</string>
+    <string name="montly_pay_text">Ежемесячный платеж</string>
+    <string name="montly_pay_helper_text">Гибкий вариант оплаты - это услуга, которая ...</string>
+    <string name="daily_pay_text">Ежедневный платеж</string>
+    <string name="daily_pay_helper_text">Для всех объектов доступен вариант оплаты ...</string>
+    <string name="see_all_text">Увидеть все ></string>
 
 
 </resources>

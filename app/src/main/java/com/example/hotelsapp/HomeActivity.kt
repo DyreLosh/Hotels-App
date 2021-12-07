@@ -10,7 +10,6 @@ import com.example.hotelsapp.fragments.MessageFragment
 import com.example.hotelsapp.fragments.OrderFragment
 import com.example.hotelsapp.fragments.ProfileFragment
 
-
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -17,7 +17,9 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+       /* if( binding.emailEditLogin.text.toString().isNotEmpty() && binding.passwordEditLogin.text.toString().isNotEmpty()) {
+            binding.loginButtonLogin.backgroundTintMode = R.color.blue
+        }*/
 
         binding.emailInputLogin.onFocusChangeListener = View.OnFocusChangeListener { v, hasFocus ->
             if (hasFocus) binding.emailEditLogin.hint = ""

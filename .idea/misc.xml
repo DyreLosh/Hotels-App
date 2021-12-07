@@ -17,6 +17,20 @@
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/fragment_profile.xml" value="0.27890625" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/item_hotels.xml" value="0.5" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/menu/bottom_navigation.xml" value="0.27890625" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/activity_home.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/activity_login.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/activity_register.xml" value="0.67" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/activity_splash.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_home.xml" value="0.33070866141732286" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_incoming.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_liked.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_message.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_notification.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_order.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/fragment_profile.xml" value="0.371875" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/item_hotel_liked_card.xml" value="0.5" />
+        <entry key="..\:/Users/Admin/Desktop/Hotels-App/app/src/main/res/layout/item_hotels.xml" value="1.1" />
       </map>
     </option>
   </component>

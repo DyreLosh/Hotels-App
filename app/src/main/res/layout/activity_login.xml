@@ -109,6 +109,7 @@
         android:layout_gravity="center"/>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginNumberButton"
         android:layout_width="match_parent"
         android:layout_marginStart="@dimen/margin_start_button"
         android:layout_marginEnd="@dimen/margin_start_button"
@@ -132,6 +133,7 @@
         android:layout_marginTop="10dp"/>
 
     <TextView
+        android:id="@+id/registerButtonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/register_text_button"
@@ -140,6 +142,7 @@
         android:layout_marginStart="190dp"/>
 
     <TextView
+        android:id="@+id/forgotPasswordButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/forgot_password_text_button"
