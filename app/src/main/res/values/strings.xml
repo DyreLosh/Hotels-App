@@ -53,6 +53,9 @@
     <string name="daily_pay_text">Ежедневный платеж</string>
     <string name="daily_pay_helper_text">Для всех объектов доступен вариант оплаты ...</string>
     <string name="see_all_text">Увидеть все ></string>
+    <string name="login_text_main">Login</string>
+    <string name="bathroom_text_item">BathRoom</string>
+    <string name="wifi_text">WI-FI</string>
 
 
 </resources>

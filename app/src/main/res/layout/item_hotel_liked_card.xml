@@ -4,17 +4,22 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    app:contentPaddingEnd="40dp"
+    app:contentPaddingRight="40dp"
     app:cardUseCompatPadding="true"
     app:cardCornerRadius="10dp">
 
 
     <ImageView
+        android:id="@+id/hotelNumberImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/hotel_card_image"/>
+        android:src="@drawable/hotel_card_image"
+        android:padding = "10dp"/>
 
 
     <TextView
+        android:id="@+id/nameNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Меркурий"
@@ -28,35 +33,86 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:contentPadding="2dp"
-        android:layout_marginTop="dp"
-        android:layout_marginStart="107dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="160dp"
         app:cardCornerRadius="5dp"
         android:layout_marginEnd="7dp"
         android:backgroundTint="@color/background_item_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageHotel">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bath"/>
+
         <TextView
             android:id="@+id/ratingHotels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
+            android:layout_marginStart="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/nameCityText"
-            tools:text="4.8" />
+            tools:text="Bath"
+            android:text="@string/bathroom_text_item"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="230dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/background_item_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHotel">
 
         <ImageView
-            android:layout_width="12dp"
-            android:layout_height="12dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginStart="15dp"
-            android:src="@drawable/ic_star" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_wifi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nameCityText"
+            android:text="@string/wifi_text"/>
 
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/addresHotel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        tools:text="adasdasdsdfsdfsdfasd"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/priceNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        tools:text="145$"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="280dp"/>
+
+    <TextView
+        android:id="@+id/ratingNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="4.9(808)"
+        android:layout_marginTop="39dp"
+        android:layout_marginStart="250dp"
+        android:textSize="11sp"/>
 
 
 
