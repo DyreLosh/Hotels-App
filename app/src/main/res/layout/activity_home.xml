@@ -19,6 +19,7 @@
         android:id="@+id/fragmentContainerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:name="com.example.hotelsapp.fragments.HomeFragment"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

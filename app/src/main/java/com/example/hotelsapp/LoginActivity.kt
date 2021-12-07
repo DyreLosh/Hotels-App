@@ -3,6 +3,7 @@ package com.example.hotelsapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.hotelsapp.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -15,6 +16,11 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()
+        }
+
+
+        binding.emailInputLogin.onFocusChangeListener = View.OnFocusChangeListener { v, hasFocus ->
+            if (hasFocus) binding.emailEditLogin.hint = ""
         }
     }
 }

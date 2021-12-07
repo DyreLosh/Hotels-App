@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Добро пожаловать!"
+        android:text="@string/hello_text_register"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:layout_gravity="center"/>
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Зарегистрируйтесь, чтобы начать"
+        android:text="@string/register_text_register"
         android:textColor="@color/black"
         android:textSize="17sp"
         android:layout_marginStart="20dp"
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
-        android:text="Номер телефона"
+        android:text="@string/phone_number_register_label"
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"/>
 
@@ -39,7 +39,7 @@
         android:layout_marginStart="@dimen/margin_start_button"
         android:layout_marginEnd="@dimen/margin_start_button"
         android:layout_height="wrap_content"
-        android:hint="+79*********"
+        android:hint="@string/phone_number_register_hint"
         app:boxCornerRadiusTopStart="@dimen/corner_edit_text"
         app:boxCornerRadiusTopEnd="@dimen/corner_edit_text"
         app:boxCornerRadiusBottomStart="@dimen/corner_edit_text"
@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
-        android:text="Имя пользователя"
+        android:text="@string/username_register_label"
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"/>
 
@@ -67,7 +67,7 @@
         android:layout_marginStart="@dimen/margin_start_button"
         android:layout_marginEnd="@dimen/margin_start_button"
         android:layout_height="wrap_content"
-        android:hint="DyreLosh"
+        android:hint="@string/username_register_hint"
         app:boxCornerRadiusTopStart="@dimen/corner_edit_text"
         app:boxCornerRadiusTopEnd="@dimen/corner_edit_text"
         app:boxCornerRadiusBottomStart="@dimen/corner_edit_text"
@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
-        android:text="Электронная почта"
+        android:text="@string/email_register_label"
         android:layout_marginTop="20dp"
         android:layout_marginStart="25dp"/>
 
@@ -95,7 +95,7 @@
         android:layout_marginStart="@dimen/margin_start_button"
         android:layout_marginEnd="@dimen/margin_start_button"
         android:layout_height="wrap_content"
-        android:hint="email@gmail.com"
+        android:hint="@string/email_register_hint"
         app:boxCornerRadiusTopStart="@dimen/corner_edit_text"
         app:boxCornerRadiusTopEnd="@dimen/corner_edit_text"
         app:boxCornerRadiusBottomStart="@dimen/corner_edit_text"
@@ -112,7 +112,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Пароль"
+        android:text="@string/password_register_label"
         android:layout_marginTop="25dp"
         android:layout_marginStart="25dp"/>
 
@@ -121,7 +121,7 @@
         android:layout_marginStart="@dimen/margin_start_button"
         android:layout_marginEnd="@dimen/margin_start_button"
         android:layout_height="wrap_content"
-        android:hint="6+ символов"
+        android:hint="@string/password_register_hint"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:boxCornerRadiusTopStart="@dimen/corner_edit_text"
         app:boxCornerRadiusTopEnd="@dimen/corner_edit_text"
@@ -143,7 +143,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blue_200"
         app:cornerRadius="15dp"
-        android:hint="Зарегистрироваться"
+        android:hint="@string/register_text_button"
         android:textColorHint="@color/black"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -154,7 +154,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Уже есть учетная запись?"
+        android:text="@string/have_acc_register_text"
         android:textColor="@color/black"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"/>
@@ -162,7 +162,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Войдите"
+        android:text="@string/login_text_button"
         android:textColor="@color/blue"
         android:layout_marginTop="-19dp"
         android:layout_marginStart="200dp"/>

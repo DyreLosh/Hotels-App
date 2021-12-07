@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import com.example.hotelsapp.R
 import com.example.hotelsapp.adapters.HotelsAdapter
 import com.example.hotelsapp.data.Hotel
@@ -29,7 +30,7 @@ class HomeFragment : Fragment() {
         val day = calendar.get(Calendar.DAY_OF_MONTH)
 
         binding.calendarButton.setOnClickListener {
-            val click = DatePickerDialog(activity, DatePickerDialog.OnDateSetListener{view, mYear, mMonth, mDay ->
+            val click = DatePickerDialog(this, DatePickerDialog.OnDateSetListener{view, mYear, mMonth, mDay ->
                 binding.calendarButton.setText(""+ mDay +"/"+ mMonth +"/"+ mYear)
             }, year, month, day)
             click.show()

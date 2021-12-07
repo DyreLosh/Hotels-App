@@ -11,59 +11,55 @@
         android:layout_height="wrap_content"
         android:paddingBottom="30dp">
 
-        <LinearLayout
-            android:id="@+id/linearLayout"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_main_image"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="centerCrop"
-                android:src="@drawable/home_main_image" />
-
-        </LinearLayout>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
+            app:cardCornerRadius="10dp"
             android:layout_marginTop="20dp"
+            app:contentPaddingBottom="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Забронируйте комнату"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/roboto"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto"
+                android:text="Забронируйте комнату"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
             <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_marginTop="50dp"
-                android:hint="Где бы ты хотел остановиться?"
-                app:startIconDrawable="@drawable/ic_search"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp">
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Где бы ты хотел остановиться?"
+                app:startIconDrawable="@drawable/ic_search">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="12dp"
-                    android:paddingBottom="12dp"/>
+                    android:paddingBottom="12dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,52 +67,52 @@
                 android:id="@+id/calendarButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:text="Выбрать дату"
-                app:strokeWidth="1dp"
-                android:paddingVertical="15dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="150dp"
-                app:strokeColor="@color/grey"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="160dp"
+                android:backgroundTint="@color/white"
+                android:paddingVertical="15dp"
+                android:text="Выбрать дату"
+                android:textColor="@color/black"
                 app:icon="@drawable/ic_calendar"
                 app:iconTint="@color/black"
-                android:layout_marginTop="120dp"
-                android:textColor="@color/black"/>
+                app:strokeColor="@color/grey"
+                app:strokeWidth="1dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="120dp"
+                android:backgroundTint="@color/white"
+                android:paddingVertical="15dp"
+                android:text="1 ночь"
+                android:textColor="@color/black"
                 app:icon="@drawable/ic_moon"
                 app:iconTint="@color/black"
-                android:text="1 ночь"
-                android:backgroundTint="@color/white"
-                app:strokeWidth="1dp"
                 app:strokeColor="@color/grey"
-                android:textColor="@color/black"
-                android:layout_marginTop="120dp"
-                android:layout_marginStart="250dp"
-                android:paddingVertical="15dp"/>
+                app:strokeWidth="1dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cornerRadius="15dp"
-                android:text="Проверить наличие"
                 android:layout_marginStart="15dp"
+                android:layout_marginTop="250dp"
                 android:layout_marginEnd="15dp"
-                android:paddingVertical="15dp"
                 android:backgroundTint="@color/blue_200"
-                android:layout_marginTop="250dp" />
+                android:paddingVertical="15dp"
+                android:text="Проверить наличие"
+                app:cornerRadius="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Начало регистрации в 14:00."
-                android:layout_marginTop="190dp"
-                android:textColor="@color/black"
                 android:layout_marginStart="20dp"
-                android:textSize="16sp"
-                android:fontFamily="@font/roboto" />
+                android:layout_marginTop="190dp"
+                android:fontFamily="@font/roboto"
+                android:text="Начало регистрации в 14:00."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -143,7 +139,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
@@ -159,7 +154,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
-            android:layout_width="wrap_content"
+            android:layout_width="165dp"
+            app:contentPaddingBottom="10dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
@@ -178,22 +174,25 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="115dp"
                 android:fontFamily="@font/roboto"
+                android:layout_marginStart="5dp"
                 android:text="Ежемесячный платеж"
                 android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="130dp"
-                android:textSize="11sp"
-
-                />
+                android:layout_marginTop="135dp"
+                android:layout_marginEnd="10dp"
+                android:text="Гибкий вариант оплаты - это услуга, которая ..."
+                android:textAlignment="center"
+                android:textSize="11sp" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="165dp"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
+            app:contentPaddingBottom="10dp"
             app:cardUseCompatPadding="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -207,19 +206,21 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="115dp"
                 android:fontFamily="@font/roboto"
                 android:text="Ежедневный платеж"
+                android:textAlignment="center"
                 android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="130dp"
-                android:textSize="11sp"
-                />
+                android:layout_marginTop="135dp"
+                android:text="Для всех объектов доступен вариант оплаты ... "
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </ScrollView>
