@@ -16,7 +16,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/hotel_one_image" />
+            tools:src="@drawable/hotel_one_image"
+            android:contentDescription="@string/card_image_content_description" />
 
         <TextView
             android:id="@+id/nameCityText"
@@ -46,7 +47,8 @@
                 android:layout_width="12dp"
                 android:layout_height="12dp"
                 android:layout_marginTop="3dp"
-                android:src="@drawable/ic_organization" />
+                android:src="@drawable/ic_organization"
+                android:contentDescription="@string/content_image_content_description" />
 
             <TextView
                 android:id="@+id/availableHotelsText"
@@ -59,7 +61,6 @@
                 tools:text="Доступно 5 номеров" />
 
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -87,9 +88,8 @@
                 android:layout_height="12dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginStart="15dp"
-                android:src="@drawable/ic_star" />
+                android:src="@drawable/ic_star"
+                android:contentDescription="@string/rating_image_content_description" />
 
         </androidx.cardview.widget.CardView>
-
-
 </androidx.cardview.widget.CardView>

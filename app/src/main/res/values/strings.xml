@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Hotels App</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Label -->
+    <!-- Hint -->
+    <!-- button -->
+    <!-- Content Description -->
+    <!-- Label -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="order_button">Заказать сейчас</string>
     <string name="home_navigation">Главная</string>
@@ -56,6 +60,9 @@
     <string name="login_text_main">Login</string>
     <string name="bathroom_text_item">BathRoom</string>
     <string name="wifi_text">WI-FI</string>
+    <string name="card_image_content_description">Card image</string>
+    <string name="rating_image_content_description">Rating Image</string>
+    <string name="content_image_content_description">Content Image</string>
 
 
 </resources>
