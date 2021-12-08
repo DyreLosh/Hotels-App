@@ -54,7 +54,7 @@
             android:layout_marginStart="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/nameCityText"
-            tools:text="Bath"
+            tools:text="Bathroom"
             android:text="@string/bathroom_text_item"/>
 
 

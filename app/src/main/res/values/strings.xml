@@ -5,6 +5,14 @@
     <!-- button -->
     <!-- Content Description -->
     <!-- Label -->
+    <!-- Error -->
+    <string name="error_empty">Поле пустое! Введите данные.</string>
+    <string name="error_password_empty">Введите пароль выше!</string>
+    <string name="error_email_more8">Введите больше 8 знаков</string>
+    <string name="error_email_true">Введите правильную почту</string>
+    <string name="error_confirm">Пароли не совпадают</string>
+    <string name="error_username_more4">Введи больше 4 символов</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="order_button">Заказать сейчас</string>
     <string name="home_navigation">Главная</string>
@@ -63,6 +71,8 @@
     <string name="card_image_content_description">Card image</string>
     <string name="rating_image_content_description">Rating Image</string>
     <string name="content_image_content_description">Content Image</string>
+    <string name="message_text_tablayout">Сообщения</string>
+    <string name="notification_text_tablayout">Уведомления</string>
 
 
 </resources>
