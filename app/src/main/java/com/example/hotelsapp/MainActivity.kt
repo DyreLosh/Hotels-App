@@ -12,12 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.loginButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()
         }
-        binding.registerButton.setOnClickListener{
-            val intent = Intent(this, RegisterActivity::class.java)
+        binding.loginTextMain.setOnClickListener{
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }

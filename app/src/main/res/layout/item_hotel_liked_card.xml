@@ -5,8 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:contentPaddingEnd="40dp"
-    app:contentPaddingRight="40dp"
+    app:contentPaddingRight="10dp"
     app:cardUseCompatPadding="true"
+    android:layout_marginStart="25dp"
     app:cardCornerRadius="10dp">
 
 
@@ -64,7 +65,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="230dp"
+        app:contentPadding="2dp"
+        android:layout_marginStart="260dp"
         app:cardCornerRadius="5dp"
         android:layout_marginEnd="7dp"
         android:backgroundTint="@color/background_item_text"

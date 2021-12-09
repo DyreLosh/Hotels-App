@@ -60,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/password_login_label"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="25dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -70,6 +70,8 @@
         android:layout_marginEnd="@dimen/margin_start_button"
         android:layout_height="wrap_content"
         android:hint="@string/password_login_hint"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/blue"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:boxCornerRadiusTopStart="@dimen/corner_edit_text"
         app:boxCornerRadiusTopEnd="@dimen/corner_edit_text"
@@ -98,7 +100,7 @@
         android:textColorHint="@color/black"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="30dp"/>
 
     <TextView
         android:layout_width="wrap_content"

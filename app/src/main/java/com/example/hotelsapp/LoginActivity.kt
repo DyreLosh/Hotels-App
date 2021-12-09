@@ -21,19 +21,18 @@ class LoginActivity : AppCompatActivity() {
         val passwordInputLayout = binding.passwordInputLogin
         val validate = Validator(this)
 
-        binding.loginButtonLogin.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+
        /* if( email.text.toString().length > 0 && password.text.toString().length > 0) {
              binding.loginButtonLogin.setBackgroundColor(R.color.blue)
             binding.loginButtonLogin.backgroundTintList = resources.getColor(R.color.blue)
         else {
             binding.loginButtonLogin.setBackgroundColor(R.color.black)
         }*/
+        binding.registerButtonLogin.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
         binding.loginButtonLogin.setOnClickListener {
-
             binding.emailInputLogin.error = validate.validateEmail(email)
             passwordInputLayout.error = validate.validatePassword(password)
 

@@ -31,25 +31,25 @@ class HomeFragment : Fragment() {
             Hotel(
                 imageView = R.drawable.hotel_two_image,
                 nameCity = "Меркурий",
-                availableHotel ="5 свободных номеров" ,
+                availableHotel ="Доступно 5 номеров" ,
                 ratingHotel = "4.9"
             ),
             Hotel(
                 imageView = R.drawable.hotel_three_image,
                 nameCity = "Аура",
-                availableHotel ="12 свободных номеров" ,
+                availableHotel ="Доступно 7 номеров" ,
                 ratingHotel = "4.9"
             ),
             Hotel(
                 imageView = R.drawable.hotel_four_image,
                 nameCity = "Ambassador",
-                availableHotel ="12 свободных номеров" ,
+                availableHotel ="Доступно 12 номеров" ,
                 ratingHotel = "4.9"
             ),
             Hotel(
                 imageView = R.drawable.hotel_five_image,
                 nameCity = "Звездная",
-                availableHotel ="12 свободных номеров" ,
+                availableHotel ="Доступно 9 номеров" ,
                 ratingHotel = "4.9"
             )
         )

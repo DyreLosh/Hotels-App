@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.hotelsapp.R
 import com.example.hotelsapp.databinding.FragmentOrderBinding
 
 class OrderFragment : Fragment() {
@@ -16,6 +17,13 @@ class OrderFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentOrderBinding.inflate(inflater, container, false)
+
+        binding.orderButton.setOnClickListener {
+            supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.fragmentContainerView, HomeFragment())
+                .commit()
+        }
 
         return binding.root
     }

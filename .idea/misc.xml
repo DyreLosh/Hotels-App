@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/activity_home.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/activity_login.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/activity_register.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/activity_splash.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_home.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_incoming.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_liked.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_message.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_notification.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_order.xml" value="0.22" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/fragment_profile.xml" value="0.275" />
+        <entry key="..\:/Users/1/Desktop/Hotels-App/app/src/main/res/layout/item_hotel_liked_card.xml" value="0.275" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/drawable/tablayout_selected_round.xml" value="0.291015625" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_home.xml" value="0.27890625" />
         <entry key="..\:/Users/Admin/Desktop/Android Projects/HotelsApp/app/src/main/res/layout/activity_login.xml" value="0.27890625" />

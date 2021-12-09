@@ -12,12 +12,13 @@
     <string name="error_email_true">Введите правильную почту</string>
     <string name="error_confirm">Пароли не совпадают</string>
     <string name="error_username_more4">Введи больше 4 символов</string>
+    <string name="error_phone_more10">Введите больше 10 знаков</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="order_button">Заказать сейчас</string>
     <string name="home_navigation">Главная</string>
     <string name="order_navigation">Бронь</string>
-    <string name="liked_navigation">Понравившиеся</string>
+    <string name="liked_navigation">Избранное</string>
     <string name="message_navigation">Собщения</string>
     <string name="profile_navigation">Профиль</string>
     <string name="mainTextLogin">Добро пожаловать!</string>
@@ -73,6 +74,7 @@
     <string name="content_image_content_description">Content Image</string>
     <string name="message_text_tablayout">Сообщения</string>
     <string name="notification_text_tablayout">Уведомления</string>
+    <string name="notify_start_text">Здравствуйте, добро пожаловать в приложение D\'paragon, пожалуйста, проверьте свои данные и получите от нас множество преимуществ. Спасибо</string>
 
 
 </resources>

@@ -28,12 +28,10 @@ class Validator(private val context: Context) {
             else -> null
         }
 
-    fun confirmPassword(password: EditText, confirmPassword: EditText): String? =
+    fun validatePhone(phoneNumber: EditText): String? =
         when {
-            confirmPassword.text.toString().isBlank() -> context.getString(R.string.error_empty)
-            password.length() < 1 -> context.getString(R.string.error_password_empty)
-            password.text.toString() != confirmPassword.text.toString() ->
-                context.getString(R.string.error_confirm)
+            phoneNumber.text.toString().isBlank() -> context.getString(R.string.error_empty)
+            phoneNumber.length() < 11 -> context.getString(R.string.error_password_empty)
             else -> null
         }
 }
