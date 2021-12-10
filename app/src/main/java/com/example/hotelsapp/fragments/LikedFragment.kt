@@ -27,7 +27,7 @@ class LikedFragment : Fragment() {
                 nameNumber = "Меркурий",
                 ratingNumber = "4.9(808)",
                 addresHotel = "Саранск, Большевитская 45",
-                priceNumber = "135$"
+                priceNumber = "135$ / ночь"
 
             )
         )

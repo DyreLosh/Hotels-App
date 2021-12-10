@@ -5,9 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:contentPaddingEnd="40dp"
-    app:contentPaddingRight="10dp"
+    app:contentPaddingRight="1dp"
     app:cardUseCompatPadding="true"
-    android:layout_marginStart="25dp"
+    android:layout_marginStart="12dp"
     app:cardCornerRadius="10dp">
 
 
@@ -30,12 +30,26 @@
         android:textColor="@color/black"
         android:fontFamily="@font/roboto"/>
 
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="25dp"
+        android:progressTint="@color/rating_bar"
+        android:isIndicator="true"
+        android:stepSize="0.1"
+        android:numStars="5"
+        android:rating="4.9"
+        android:scaleX="0.3"
+        android:scaleY="0.3" />
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:contentPadding="2dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginStart="160dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginStart="150dp"
         app:cardCornerRadius="5dp"
         android:layout_marginEnd="7dp"
         android:backgroundTint="@color/background_item_text"
@@ -64,9 +78,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="63dp"
         app:contentPadding="2dp"
-        android:layout_marginStart="260dp"
+        android:layout_marginStart="240dp"
         app:cardCornerRadius="5dp"
         android:layout_marginEnd="7dp"
         android:backgroundTint="@color/background_item_text"
@@ -93,7 +107,7 @@
         android:id="@+id/addresHotel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="adasdasdsdfsdfsdfasd"
+        tools:text="Саранск, Большевитская 58"
         android:layout_marginStart="150dp"
         android:layout_marginTop="90dp"/>
 
@@ -104,8 +118,10 @@
         android:textColor="@color/blue"
         tools:text="145$/ночь"
         android:textStyle="bold"
+        android:paddingStart="0dp"
+        android:paddingEnd="20dp"
         android:layout_marginTop="120dp"
-        android:layout_marginStart="280dp"/>
+        android:layout_marginStart="270dp"/>
 
     <TextView
         android:id="@+id/ratingNumber"
@@ -113,7 +129,7 @@
         android:layout_height="wrap_content"
         tools:text="4.9(808)"
         android:layout_marginTop="39dp"
-        android:layout_marginStart="250dp"
+        android:layout_marginStart="225dp"
         android:textSize="11sp"/>
 
 

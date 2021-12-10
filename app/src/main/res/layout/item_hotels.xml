@@ -13,11 +13,11 @@
             android:id="@+id/imageHotel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/card_image_content_description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/hotel_one_image"
-            android:contentDescription="@string/card_image_content_description" />
+            tools:src="@drawable/hotel_one_image" />
 
         <TextView
             android:id="@+id/nameCityText"
@@ -35,11 +35,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="142dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="142dp"
+            android:backgroundTint="@color/background_item_text"
             app:cardCornerRadius="5dp"
             app:contentPadding="2dp"
-            android:backgroundTint="@color/background_item_text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nameCityText">
 

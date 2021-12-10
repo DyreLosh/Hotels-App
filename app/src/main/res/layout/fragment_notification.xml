@@ -19,8 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:src="@drawable/ic_bell"
             android:layout_marginTop="20dp"
+            android:src="@drawable/ic_bell"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,19 +29,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
-            android:fontFamily="@font/roboto"
             android:layout_marginTop="20dp"
-            android:text="Добро пожаловать!"
+            android:fontFamily="@font/roboto"
+            android:text="@string/hello_text_notification"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageView" />
 
         <ImageView
-            android:layout_width="15dp"
+            android:layout_width="wrap_content"
             android:layout_height="15dp"
-            android:layout_marginEnd="30dp"
             android:layout_gravity="end"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
             android:src="@drawable/ic_close"
             app:layout_constraintEnd_toEndOf="parent"
             tools:layout_editor_absoluteY="4dp" />
@@ -49,16 +49,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="50dp"
             android:text="@string/notify_start_text"
             android:textColor="@color/black"
-            android:textSize="13sp"
-            android:layout_marginTop="50dp"
-            android:layout_marginStart="60dp"
-            android:paddingStart="0dp"
-            android:paddingEnd="50dp"/>
+            android:textSize="13sp" />
     </androidx.cardview.widget.CardView>
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

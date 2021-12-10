@@ -18,12 +18,6 @@ class OrderFragment : Fragment() {
     ): View {
         binding = FragmentOrderBinding.inflate(inflater, container, false)
 
-        binding.orderButton.setOnClickListener {
-            supportFragmentManager
-                .beginTransaction()
-                .replace(R.id.fragmentContainerView, HomeFragment())
-                .commit()
-        }
 
         return binding.root
     }

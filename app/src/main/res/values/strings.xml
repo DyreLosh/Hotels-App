@@ -74,7 +74,8 @@
     <string name="content_image_content_description">Content Image</string>
     <string name="message_text_tablayout">Сообщения</string>
     <string name="notification_text_tablayout">Уведомления</string>
-    <string name="notify_start_text">Здравствуйте, добро пожаловать в приложение D\'paragon, пожалуйста, проверьте свои данные и получите от нас множество преимуществ. Спасибо</string>
+    <string name="notify_start_text">Здравствуйте, добро пожаловать в приложение, пожалуйста, проверьте свои данные и получите от нас множество преимуществ. Спасибо</string>
+    <string name="hello_text_notification">Добро пожаловать!</string>
 
 
 </resources>
