@@ -23,39 +23,30 @@ class HomeActivity : AppCompatActivity() {
                         .beginTransaction()
                         .replace(R.id.fragmentContainerView, HomeFragment())
                         .commit()
-                    binding.toolbar.isVisible = false
                 }
                 R.id.orderNavigation -> {
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.fragmentContainerView, OrderFragment())
                         .commit()
-                    binding.toolbar.isVisible = true
-                    binding.toolbar.title = getString(R.string.order_navigation)
                 }
                 R.id.likedNavigation -> {
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.fragmentContainerView, LikedFragment())
                         .commit()
-                    binding.toolbar.isVisible = true
-                    binding.toolbar.title = getString(R.string.liked_navigation)
                 }
                 R.id.messageNavigation -> {
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.fragmentContainerView, MessageFragment())
                         .commit()
-                    binding.toolbar.isVisible = true
-                    binding.toolbar.title = getString(R.string.message_navigation)
                 }
                 R.id.profileNavigation -> {
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.fragmentContainerView, ProfileFragment())
                         .commit()
-                    binding.toolbar.isVisible = true
-                    binding.toolbar.title = getString(R.string.profile_navigation)
                 }
             }
             true

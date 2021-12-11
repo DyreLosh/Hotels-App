@@ -69,6 +69,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:maxLines="1"
                     android:paddingTop="12dp"
                     android:paddingBottom="12dp" />
 
@@ -164,8 +165,9 @@
             app:layout_constraintTop_toBottomOf="@+id/recyclerHotels" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
+            android:id="@+id/everymonthCard"
             android:layout_width="165dp"
+            android:foreground="?android:attr/selectableItemBackground"
             app:contentPaddingBottom="10dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -201,14 +203,16 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/everydayCard"
             android:layout_width="165dp"
+            android:foreground="?android:attr/selectableItemBackground"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             app:contentPaddingBottom="10dp"
             app:cardUseCompatPadding="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cardView">
+            app:layout_constraintStart_toEndOf="@+id/everymonthCard">
 
             <ImageView
                 android:layout_width="match_parent"

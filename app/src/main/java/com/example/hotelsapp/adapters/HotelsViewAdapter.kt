@@ -11,5 +11,7 @@ class HotelsViewAdapter(private val binding: ItemHotelsBinding) : RecyclerView.V
         nameCityText.text = hotel.nameCity
         availableHotelsText.text = hotel.availableHotel
         ratingHotels.text = hotel.ratingHotel
+
+        root.setOnClickListener{}
     }
 }

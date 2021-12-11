@@ -12,5 +12,8 @@ class HotelNumbersViewAdapter(private val binding: ItemHotelLikedCardBinding) : 
         ratingNumber.text = hotelNumber.ratingNumber
         addresHotel.text = hotelNumber.addresHotel
         priceNumber.text = hotelNumber.priceNumber
+
+        root.setOnClickListener{}
+
     }
 }

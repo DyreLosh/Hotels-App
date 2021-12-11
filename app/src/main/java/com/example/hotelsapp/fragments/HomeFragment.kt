@@ -21,6 +21,9 @@ class HomeFragment : Fragment() {
     ): View {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
+        binding.everymonthCard.setOnClickListener {}
+        binding.everydayCard.setOnClickListener {}
+
         binding.apply {
             binding.calendarButton.setOnClickListener {
 

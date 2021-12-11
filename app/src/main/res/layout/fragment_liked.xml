@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".fragments.LikedFragment">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/likedToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Избранное" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/hotelNumberRecyclerView"
         android:layout_width="match_parent"

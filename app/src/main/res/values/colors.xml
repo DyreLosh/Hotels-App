@@ -12,5 +12,6 @@
     <color name="black_500">#515252</color>
     <color name="background_item_text">#F8F9FB</color>
     <color name="grey">#E4E4E4</color>
+    <color name="stroke_grey">#F2F2F2</color>
     <color name="rating_bar">#FC9332</color>
 </resources>

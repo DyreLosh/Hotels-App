@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:contentPaddingEnd="40dp"
     app:contentPaddingRight="1dp"
+    android:foreground="?android:attr/selectableItemBackground"
     app:cardUseCompatPadding="true"
     android:layout_marginStart="12dp"
     app:cardCornerRadius="10dp">
