@@ -39,7 +39,6 @@ class RegisterActivity : AppCompatActivity() {
                     phoneInputLayout.error == null
                 ) {
                     val intent = Intent(this, HomeActivity::class.java)
-
                     intent.putExtra("Name", binding.userEditRegister.text.toString())
                     intent.putExtra("Email", binding.emailEditRegister.text.toString())
                     intent.putExtra("Phone", binding.phoneEditRegister.text.toString())
