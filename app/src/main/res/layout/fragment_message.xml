@@ -19,8 +19,8 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         app:cardCornerRadius="20dp">
 
@@ -29,14 +29,14 @@
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:background="@color/grey"
-            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
-            app:tabMaxWidth="0dp"
-            app:tabIndicatorGravity="stretch"
             app:tabGravity="fill"
-            app:tabMode="fixed"
             app:tabIndicatorColor="@color/white"
-            app:tabTextColor="@color/black"
-            app:tabSelectedTextColor="@color/blue">
+            app:tabIndicatorGravity="stretch"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/blue"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="@color/black">
 
         </com.google.android.material.tabs.TabLayout>
     </com.google.android.material.card.MaterialCardView>

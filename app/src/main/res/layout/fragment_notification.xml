@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
+            android:contentDescription="@string/todo"
             android:src="@drawable/ic_bell"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -42,6 +43,7 @@
             android:layout_gravity="end"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
+            android:contentDescription="@string/todo"
             android:src="@drawable/ic_close"
             app:layout_constraintEnd_toEndOf="parent"
             tools:layout_editor_absoluteY="4dp" />
@@ -56,5 +58,6 @@
             android:text="@string/notify_start_text"
             android:textColor="@color/black"
             android:textSize="13sp" />
+
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

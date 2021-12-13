@@ -10,6 +10,7 @@ import com.example.hotelsapp.R
 import com.example.hotelsapp.adapters.HotelsAdapter
 import com.example.hotelsapp.data.Hotel
 import com.example.hotelsapp.databinding.FragmentHomeBinding
+import com.example.hotelsapp.dialog.HotelSelectNightDialog
 
 class HomeFragment : Fragment() {
     lateinit var binding: FragmentHomeBinding
@@ -39,10 +40,13 @@ class HomeFragment : Fragment() {
                         binding.calendarButton.text = date
                     }
                 }
-
                 datePickerFragment.show(supportFragmentManager, "DatePickerFragment")
-            }
 
+                binding.selectNightNumber.setOnClickListener {
+                    val hotelSelectNightDialog = HotelSelectNightDialog(this)
+                    hotelSelectNightDialog.show(supportFragmentManager, "myDialog")
+                }
+            }
             val hotels = listOf(
                 Hotel(
                     imageView = R.drawable.hotel_one_image,

@@ -1,11 +1,9 @@
 package com.example.hotelsapp.fragments
 
 import android.os.Bundle
+import android.view.*
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.MenuItem
-import android.view.View
-import android.view.ViewGroup
 import com.example.hotelsapp.R
 import com.example.hotelsapp.databinding.FragmentProfileBinding
 
@@ -30,11 +28,16 @@ class ProfileFragment : Fragment() {
         return binding.root
     }
 
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+            inflater.inflate(R.menu.profile_navigation, menu)
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId) {
 
             R.id.exitMenu -> {
                 activity?.finish()
+                binding.phoneProfile.text = "dfssf"
             }
         }
         return true

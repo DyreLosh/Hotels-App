@@ -38,6 +38,7 @@
                 android:id="@+id/avaImage"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:contentDescription="@string/todo"
                 android:src="@drawable/img" />
         </androidx.cardview.widget.CardView>
 
@@ -48,11 +49,10 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto"
-            android:text="@string/username_profile"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@+id/cardView"
-            app:layout_constraintTop_toTopOf="@+id/cardView" />
-
+            app:layout_constraintTop_toTopOf="@+id/cardView"
+            tools:text="@string/username_profile" />
 
         <TextView
             android:id="@+id/emailProfile"
@@ -61,11 +61,10 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/roboto"
-            android:text="email@gmail.com"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@+id/cardView"
-            app:layout_constraintTop_toBottomOf="@+id/usernameProfileText" />
-
+            app:layout_constraintTop_toBottomOf="@+id/usernameProfileText"
+            tools:text="email@gmail.com" />
 
         <TextView
             android:id="@+id/phoneProfile"
@@ -74,13 +73,12 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto"
-            android:text="+79424242454"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@+id/cardView"
-            app:layout_constraintTop_toBottomOf="@+id/emailProfile" />
+            app:layout_constraintTop_toBottomOf="@+id/emailProfile"
+            tools:text="+79424242454" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     <View
         android:id="@+id/lineProfileInfo"
@@ -97,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
-        android:text="ИНФОРМАЦИЯ"
+        android:text="@string/info_text_profile"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lineProfileInfo" />
@@ -117,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:paddingVertical="10dp"
-            android:text="Персональная информация"
+            android:text="@string/personal_info_text_profile"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -129,6 +127,7 @@
             android:layout_height="20dp"
             android:layout_gravity="end"
             android:layout_marginEnd="10dp"
+            android:contentDescription="@string/todo"
             android:src="@drawable/ic_person"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -164,7 +163,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:paddingVertical="10dp"
-            android:text="Пароль"
+            android:text="@string/password_text_profile"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -176,6 +175,7 @@
             android:layout_height="20dp"
             android:layout_gravity="end"
             android:layout_marginEnd="10dp"
+            android:contentDescription="@string/todo"
             android:src="@drawable/ic_lock"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -209,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:paddingVertical="10dp"
-            android:text="Баковская карта"
+            android:text="@string/bankcard_text_profile"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -221,6 +221,7 @@
             android:layout_height="20dp"
             android:layout_gravity="end"
             android:layout_marginEnd="10dp"
+            android:contentDescription="@string/todo"
             android:src="@drawable/ic_card"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

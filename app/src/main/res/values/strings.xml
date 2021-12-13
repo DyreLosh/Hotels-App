@@ -1,10 +1,55 @@
 <resources>
     <string name="app_name">Hotels App</string>
+
     <!-- Label -->
+    <string name="password_login_label">Пароль</string>
+    <string name="phone_number_register_label">Номер телефона</string>
+    <string name="password_register_label">Пароль</string>
+    <string name="email_register_label">Электронная почта</string>
+    <string name="username_register_label">Имя пользователя</string>
+
     <!-- Hint -->
+    <string name="email_login_hint">email@gmail.com</string>
+    <string name="password_login_hint">6+ символов</string>
+    <string name="phone_number_register_hint">+79*********</string>
+    <string name="username_register_hint">DyreLosh</string>
+    <string name="email_register_hint">email@gmail.com</string>
+    <string name="password_register_hint">6+ символов</string>
+    <string name="search_hotel_hint">Где бы ты хотел остановиться?</string>
+
     <!-- button -->
+    <string name="order_button">Заказать сейчас</string>
+    <string name="login_button">Войти</string>
+    <string name="login_with_number_button">Войти по номеру телефона</string>
+    <string name="forgot_password_text_button">Забыли пароль?</string>
+    <string name="register_text_button">Зарегистрируйтесь</string>
+    <string name="login_text_button">Войдите</string>
+    <string name="verify_text_button">Проверить наличие</string>
+
     <!-- Content Description -->
-    <!-- Label -->
+    <string name="image_content_description">Image</string>
+    <string name="people_image_content_description">People image</string>
+    <string name="tree_image_content_description">Tree Image</string>
+    <string name="main_image_content_description">Main image</string>
+    <string name="card_image_content_description">Card image</string>
+    <string name="rating_image_content_description">Rating Image</string>
+    <string name="content_image_content_description">Content Image</string>
+    <string name="todo">TODO</string>
+
+    <!-- Navigation -->
+    <string name="home_navigation">Главная</string>
+    <string name="order_navigation">Бронь</string>
+    <string name="liked_navigation">Избранное</string>
+    <string name="message_navigation">Собщения</string>
+    <string name="profile_navigation">Профиль</string>
+    <string name="about_profile_navigation">О нас</string>
+    <string name="help_profile_navigation">Центр поддержки</string>
+    <string name="exit_profile_navigation">Выйти</string>
+
+    <!-- TabLayout -->
+    <string name="message_text_tablayout">Сообщения</string>
+    <string name="notification_text_tablayout">Уведомления</string>
+
     <!-- Error -->
     <string name="error_empty">Поле пустое! Введите данные.</string>
     <string name="error_password_empty">Введите пароль выше!</string>
@@ -14,69 +59,41 @@
     <string name="error_username_more4">Введи больше 4 символов</string>
     <string name="error_phone_more10">Введите больше 10 знаков</string>
 
+    <!-- Text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="order_button">Заказать сейчас</string>
-    <string name="home_navigation">Главная</string>
-    <string name="order_navigation">Бронь</string>
-    <string name="liked_navigation">Избранное</string>
-    <string name="message_navigation">Собщения</string>
-    <string name="profile_navigation">Профиль</string>
     <string name="mainTextLogin">Добро пожаловать!</string>
     <string name="loginTextLogin">Войдите, чтобы начать</string>
     <string name="emailLabelLogin">Электронная почта</string>
-    <string name="email_login_hint">email@gmail.com</string>
-    <string name="password_login_label">Пароль</string>
-    <string name="password_login_hint">6+ символов</string>
-    <string name="login_button">Войти</string>
     <string name="andText">или</string>
-    <string name="login_with_number_button">Войти по номеру телефона</string>
     <string name="dont_account_text">Еще нет учетной записи?</string>
-    <string name="register_text_button">Зарегистрируйтесь</string>
-    <string name="forgot_password_text_button">Забыли пароль?</string>
     <string name="main_text_activity_main">Где бы вы ни находились, заказывать отели стало проще</string>
     <string name="second_text_activity_main">Наслаждайтесь максимальным сервисом, бронируйте номера в пансионах с помощью новейшего приложения с более привлекательным внешним видом.</string>
-    <string name="image_content_description">Image</string>
-    <string name="people_image_content_description">People image</string>
     <string name="hello_text_register">Добро пожаловать!</string>
     <string name="register_text_register">Зарегистрируйтесь, чтобы начать</string>
-    <string name="phone_number_register_label">Номер телефона</string>
-    <string name="phone_number_register_hint">+79*********</string>
-    <string name="username_register_label">Имя пользователя</string>
-    <string name="username_register_hint">DyreLosh</string>
-    <string name="email_register_label">Электронная почта</string>
-    <string name="email_register_hint">email@gmail.com</string>
-    <string name="password_register_label">Пароль</string>
-    <string name="password_register_hint">6+ символов</string>
-    <string name="login_text_button">Войдите</string>
     <string name="have_acc_register_text">Уже есть учетная запись?</string>
     <string name="hello_text_splash">Добро пожаловать!</string>
-    <string name="tree_image_content_description">Tree Image</string>
-    <string name="main_image_content_description">Main image</string>
     <string name="bron_text_home_fragment">Забронируйте комнату</string>
     <string name="selected_date_home">Выбрать дату</string>
-    <string name="search_hotel_hint">Где бы ты хотел остановиться?</string>
     <string name="night_number_select">1 ночь</string>
-    <string name="verify_text_button">Проверить наличие</string>
     <string name="register_time_text">Начало регистрации в 14:00.</string>
     <string name="available_hotels_text_main">Доступные отели</string>
-    <string name="variant_pay_text_gome">Варианты оплаты</string>
+    <string name="variant_pay_text_home">Варианты оплаты</string>
     <string name="hotel_image_one_content_description">Hotel image one</string>
-    <string name="montly_pay_text">Ежемесячный платеж</string>
-    <string name="montly_pay_helper_text">Гибкий вариант оплаты - это услуга, которая ...</string>
+    <string name="monthly_pay_text">Ежемесячный платеж</string>
+    <string name="monthly_pay_helper_text">Гибкий вариант оплаты - это услуга, которая …</string>
     <string name="daily_pay_text">Ежедневный платеж</string>
-    <string name="daily_pay_helper_text">Для всех объектов доступен вариант оплаты ...</string>
+    <string name="daily_pay_helper_text">Для всех объектов доступен вариант оплаты …</string>
     <string name="see_all_text">Увидеть все ></string>
     <string name="login_text_main">Login</string>
     <string name="bathroom_text_item">BathRoom</string>
     <string name="wifi_text">WI-FI</string>
-    <string name="card_image_content_description">Card image</string>
-    <string name="rating_image_content_description">Rating Image</string>
-    <string name="content_image_content_description">Content Image</string>
-    <string name="message_text_tablayout">Сообщения</string>
-    <string name="notification_text_tablayout">Уведомления</string>
     <string name="notify_start_text">Здравствуйте, добро пожаловать в приложение, пожалуйста, проверьте свои данные и получите от нас множество преимуществ. Спасибо</string>
     <string name="hello_text_notification">Добро пожаловать!</string>
     <string name="username_profile">%s</string>
-
-
+    <string name="info_text_profile">ИНФОРМАЦИЯ</string>
+    <string name="personal_info_text_profile">Персональная информация</string>
+    <string name="password_text_profile">Пароль</string>
+    <string name="bankcard_text_profile">Банковская карта</string>
+    <string name="helper_text_order">Ой! Похоже, вы еще не забронировали номер</string>
+    <string name="helper_text_incoming">Входящие сообщения все еще пустые, но не волнуйтесь, мы сообщим вам</string>
 </resources>

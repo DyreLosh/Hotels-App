@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="180dp"
+    android:layout_marginStart="15dp"
     android:elevation="10dp"
     android:foreground="?android:attr/selectableItemBackground"
-    app:cardUseCompatPadding="true"
-    android:layout_marginStart="15dp"
     app:cardCornerRadius="10dp"
-    xmlns:tools="http://schemas.android.com/tools">
+    app:cardUseCompatPadding="true">
 
         <ImageView
             android:id="@+id/imageHotel"
@@ -24,11 +24,11 @@
             android:id="@+id/nameCityText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="115dp"
             android:fontFamily="@font/roboto"
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:layout_marginTop="115dp"
-            android:layout_marginStart="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageHotel"
             tools:text="Меркурий" />
@@ -48,8 +48,8 @@
                 android:layout_width="12dp"
                 android:layout_height="12dp"
                 android:layout_marginTop="3dp"
-                android:src="@drawable/ic_organization"
-                android:contentDescription="@string/content_image_content_description" />
+                android:contentDescription="@string/content_image_content_description"
+                android:src="@drawable/ic_organization" />
 
             <TextView
                 android:id="@+id/availableHotelsText"
@@ -66,12 +66,12 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:contentPadding="2dp"
-            android:layout_marginTop="116dp"
             android:layout_marginStart="107dp"
-            app:cardCornerRadius="5dp"
+            android:layout_marginTop="116dp"
             android:layout_marginEnd="7dp"
             android:backgroundTint="@color/background_item_text"
+            app:cardCornerRadius="5dp"
+            app:contentPadding="2dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageHotel">
 
@@ -87,10 +87,10 @@
             <ImageView
                 android:layout_width="12dp"
                 android:layout_height="12dp"
-                android:layout_marginTop="2dp"
                 android:layout_marginStart="15dp"
-                android:src="@drawable/ic_star"
-                android:contentDescription="@string/rating_image_content_description" />
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/rating_image_content_description"
+                android:src="@drawable/ic_star" />
 
         </androidx.cardview.widget.CardView>
 </androidx.cardview.widget.CardView>
