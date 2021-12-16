@@ -21,31 +21,33 @@ class RegisterActivity : AppCompatActivity() {
 
         binding.registerButtonRegister.setOnClickListener {
 
-            val emailInputLayout = binding.emailInputRegister
-            val passwordInputLayout = binding.passwordInputRegister
-            val usernameInputLayout = binding.userInputRegister
-            val phoneInputLayout = binding.phoneInputRegister
-            val validate = Validator(this)
+            verificationRegister(binding)
+        }
+    }
 
-            binding.registerButtonRegister.setOnClickListener {
-                usernameInputLayout.error = validate.validateName(binding.userEditRegister)
-                emailInputLayout.error = validate.validateEmail(binding.emailEditRegister)
-                passwordInputLayout.error = validate.validatePassword(binding.passwordEditRegister)
-                phoneInputLayout.error = validate.validatePhone(binding.phoneEditRegister)
+    private fun verificationRegister(binding: ActivityRegisterBinding) {
+        val emailInputLayout = binding.emailInputRegister
+        val passwordInputLayout = binding.passwordInputRegister
+        val usernameInputLayout = binding.userInputRegister
+        val phoneInputLayout = binding.phoneInputRegister
+        val validate = Validator(this)
 
-                if (usernameInputLayout.error == null &&
-                    emailInputLayout.error == null &&
-                    passwordInputLayout.error == null &&
-                    phoneInputLayout.error == null
-                ) {
-                    val intent = Intent(this, HomeActivity::class.java)
-                    intent.putExtra("Name", binding.userEditRegister.text.toString())
-                    intent.putExtra("Email", binding.emailEditRegister.text.toString())
-                    intent.putExtra("Phone", binding.phoneEditRegister.text.toString())
-                    startActivity(intent)
-                    finish()
-                }
-            }
+        usernameInputLayout.error = validate.validateName(binding.userEditRegister)
+        emailInputLayout.error = validate.validateEmail(binding.emailEditRegister)
+        passwordInputLayout.error = validate.validatePassword(binding.passwordEditRegister)
+        phoneInputLayout.error = validate.validatePhone(binding.phoneEditRegister)
+
+        if (usernameInputLayout.error == null &&
+            emailInputLayout.error == null &&
+            passwordInputLayout.error == null &&
+            phoneInputLayout.error == null
+        ) {
+            val intent = Intent(this, HomeActivity::class.java)
+            intent.putExtra("Name", binding.userEditRegister.text.toString())
+            intent.putExtra("Email", binding.emailEditRegister.text.toString())
+            intent.putExtra("Phone", binding.phoneEditRegister.text.toString())
+            startActivity(intent)
+            finish()
         }
     }
 }

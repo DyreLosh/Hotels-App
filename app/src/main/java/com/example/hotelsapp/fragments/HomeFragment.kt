@@ -27,25 +27,12 @@ class HomeFragment : Fragment() {
 
         binding.apply {
             binding.calendarButton.setOnClickListener {
-
-                val datePickerFragment = DatePickerDialog()
+                openDataPickerDialog()
+            }
+            binding.selectNightNumber.setOnClickListener {
                 val supportFragmentManager = requireActivity().supportFragmentManager
-
-                supportFragmentManager.setFragmentResultListener(
-                    "REQUEST_KEY",
-                    viewLifecycleOwner
-                ) { resultKey, bundle ->
-                    if (resultKey == "REQUEST_KEY") {
-                        val date = bundle.getString("SELECTED_DATE")
-                        binding.calendarButton.text = date
-                    }
-                }
-                datePickerFragment.show(supportFragmentManager, "DatePickerFragment")
-
-                binding.selectNightNumber.setOnClickListener {
-                    val hotelSelectNightDialog = HotelSelectNightDialog(this)
-                    hotelSelectNightDialog.show(supportFragmentManager, "myDialog")
-                }
+                val hotelSelectNightDialog = HotelSelectNightDialog(this)
+                hotelSelectNightDialog.show(supportFragmentManager, "myDialog")
             }
             val hotels = listOf(
                 Hotel(
@@ -84,5 +71,21 @@ class HomeFragment : Fragment() {
             adapter.submitList(hotels)
             return binding.root
         }
+    }
+
+    private fun openDataPickerDialog() {
+        val datePickerFragment = DatePickerDialog()
+        val supportFragmentManager = requireActivity().supportFragmentManager
+
+        supportFragmentManager.setFragmentResultListener(
+            "REQUEST_KEY",
+            viewLifecycleOwner
+        ) { resultKey, bundle ->
+            if (resultKey == "REQUEST_KEY") {
+                val date = bundle.getString("SELECTED_DATE")
+                binding.calendarButton.text = date
+            }
+        }
+        datePickerFragment.show(supportFragmentManager, "DatePickerFragment")
     }
 }

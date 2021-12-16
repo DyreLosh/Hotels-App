@@ -2,7 +2,7 @@ package com.example.hotelsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.view.isVisible
+import androidx.fragment.app.Fragment
 import com.example.hotelsapp.databinding.ActivityHomeBinding
 import com.example.hotelsapp.fragments.HomeFragment
 import com.example.hotelsapp.fragments.LikedFragment
@@ -18,38 +18,19 @@ class HomeActivity : AppCompatActivity() {
 
         binding.bottomNavigation.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.homeNavigation -> {
-                    supportFragmentManager
-                        .beginTransaction()
-                        .replace(R.id.fragmentContainerView, HomeFragment())
-                        .commit()
-                }
-                R.id.orderNavigation -> {
-                    supportFragmentManager
-                        .beginTransaction()
-                        .replace(R.id.fragmentContainerView, OrderFragment())
-                        .commit()
-                }
-                R.id.likedNavigation -> {
-                    supportFragmentManager
-                        .beginTransaction()
-                        .replace(R.id.fragmentContainerView, LikedFragment())
-                        .commit()
-                }
-                R.id.messageNavigation -> {
-                    supportFragmentManager
-                        .beginTransaction()
-                        .replace(R.id.fragmentContainerView, MessageFragment())
-                        .commit()
-                }
-                R.id.profileNavigation -> {
-                    supportFragmentManager
-                        .beginTransaction()
-                        .replace(R.id.fragmentContainerView, ProfileFragment())
-                        .commit()
-                }
+                R.id.homeNavigation -> supportBottomNavigation(HomeFragment())
+                R.id.orderNavigation -> supportBottomNavigation(OrderFragment())
+                R.id.likedNavigation -> supportBottomNavigation(LikedFragment())
+                R.id.messageNavigation -> supportBottomNavigation(MessageFragment())
+                R.id.profileNavigation -> supportBottomNavigation(ProfileFragment())
             }
             true
         }
+    }
+    private fun supportBottomNavigation(fragment: Fragment) {
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.fragmentContainerView, fragment)
+            .commit()
     }
 }

@@ -21,7 +21,6 @@ class MessageFragment : Fragment() {
         binding = FragmentMessageBinding.inflate(inflater, container, false)
 
         val adapter = ViewPagerAdapter(this)
-
         binding.viewPagerMessage.adapter = adapter
 
         TabLayoutMediator(binding.tabLayoutMessage, binding.viewPagerMessage) { tab, position ->
